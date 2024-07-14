@@ -25,11 +25,6 @@ def get_primary_colors_lab(filename, pn):
             primary_colors.append(i)
         else:
             break
-    primary_colors_rgb = {
-    (0, 0, 0) :np.array([0, 0, 0]),
-    (255, 255, 255) :np.array([255, 255, 255]),
-    (43, 235, 10) :np.array([43, 235, 10]),
-    }
     primary_colors_rgb = {i: np.array([i for i in i]) for i in primary_colors}
     return primary_colors_rgb
 
