@@ -31,7 +31,6 @@ def get_primary_colors_lab(filename, pn):
     (43, 235, 10) :np.array([43, 235, 10]),
     }
     primary_colors_rgb = {i: np.array([i for i in i]) for i in primary_colors}
-    print(primary_colors_rgb)
     return primary_colors_rgb
 
 
